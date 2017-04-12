@@ -146,7 +146,12 @@ class LocalTaskSource implements TaskSource {
         continue;
       }
 
-      tasks.add(taskParser.parseOneTask(line));
+      try {
+        tasks.add(taskParser.parseOneTask(line));
+      }
+      catch (Exception e) {
+        System.out.println(e.toString());
+      }
     }
     taskFile.close();
     return tasks;
