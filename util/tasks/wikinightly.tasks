@@ -1,0 +1,135 @@
+AndHighHigh: +be +up # freq=2115632 freq=824628
+AndHighHigh: +cite +had # freq=1367577 freq=1223103
+AndHighHigh: +is +he # freq=4214104 freq=1663980
+AndHighHigh: +no +4 # freq=1060681 freq=944177
+AndHighHigh: +title +see # freq=2077102 freq=1100862
+AndHighMed: +2010 +16 # freq=933686 freq=531050
+AndHighMed: +5 +power # freq=849829 freq=257919
+AndHighMed: +only +particularly # freq=895806 freq=100045
+AndHighMed: +united +1983 # freq=1185528 freq=150075
+AndHighMed: +who +ed # freq=1201585 freq=127497
+Fuzzy1: changer~1
+Fuzzy1: danes~1
+Fuzzy1: maher~1
+Fuzzy1: manic~1
+Fuzzy1: provo~1
+Fuzzy2: bates~2
+Fuzzy2: fined~2
+Fuzzy2: insta~2
+Fuzzy2: sings~2
+Fuzzy2: titel~2
+IntNRQ: nrq//timesecnum 10044 66714
+IntNRQ: nrq//timesecnum 1069 86092
+IntNRQ: nrq//timesecnum 150 34646
+IntNRQ: nrq//timesecnum 3110 51452
+IntNRQ: nrq//timesecnum 3773 78558
+OrHighHigh: are last # freq=1921211 freq=830278
+OrHighHigh: at united # freq=2834104 freq=1185528
+OrHighHigh: but year # freq=1484398 freq=1098425
+OrHighHigh: name its # freq=2577591 freq=1160703
+OrHighHigh: to but # freq=6105155 freq=1484398
+OrHighMed: at mostly # freq=2834104 freq=89401
+OrHighMed: his interview # freq=1771920 freq=94736
+OrHighMed: http 9 # freq=3289683 freq=541405
+OrHighMed: they hard # freq=1031516 freq=92045
+OrHighMed: title bay # freq=2077102 freq=117167
+Phrase: "it was" # freq=597450
+Phrase: "red please" # freq=43948
+Phrase: "the average" # freq=55409
+Phrase: "the us" # freq=68781
+Phrase: "when a" # freq=45309
+Prefix3: any*
+Prefix3: cul*
+Prefix3: his*
+Prefix3: mak*
+Prefix3: man*
+Respell: biker
+Respell: bowed
+Respell: dries
+Respell: montes
+Respell: stove
+SloppyPhrase: "after his"~4 # freq=50193
+SloppyPhrase: "in an"~4 # freq=181581
+SloppyPhrase: "nomination when"~4 # freq=55609
+SloppyPhrase: "one of"~4 # freq=587897
+SloppyPhrase: "was also"~4 # freq=163302
+SpanNear: near//see the # freq=52117
+SpanNear: near//states american # freq=52681
+SpanNear: near//the modern # freq=37712
+SpanNear: near//when it # freq=63385
+SpanNear: near//your nomination # freq=55938
+Term: 0 # freq=708472
+Term: names # freq=402762
+Term: nbsp # freq=492778
+Term: part # freq=588644
+Term: st # freq=306811
+BrowseDateTaxoFacets: *:* +facets:Date.taxonomy
+BrowseMonthTaxoFacets: *:* +facets:Month.taxonomy
+BrowseDayOfYearTaxoFacets: *:* +facets:DayOfYear.taxonomy
+BrowseMonthSSDVFacets: *:* +facets:Month.sortedset
+BrowseDayOfYearSSDVFacets: *:* +facets:DayOfYear.sortedset
+TermDateFacets: 0 +facets:Date.taxonomy # freq=708472
+TermDateFacets: names +facets:Date.taxonomy # freq=402762
+TermDateFacets: nbsp +facets:Date.taxonomy # freq=492778
+TermDateFacets: part +facets:Date.taxonomy # freq=588644
+TermDateFacets: st +facets:Date.taxonomy # freq=306811
+TermDateTimeSort: lastmodndvsort//0 # freq=708472
+TermDateTimeSort: lastmodndvsort//names # freq=402762
+TermDateTimeSort: lastmodndvsort//nbsp # freq=492778
+TermDateTimeSort: lastmodndvsort//part # freq=588644
+TermDateTimeSort: lastmodndvsort//st # freq=306811
+TermTitleSort: titledvsort//0 # freq=708472
+TermTitleSort: titledvsort//names # freq=402762
+TermTitleSort: titledvsort//nbsp # freq=492778
+TermTitleSort: titledvsort//part # freq=588644
+TermTitleSort: titledvsort//st # freq=306811
+TermMonthSort: monthdvsort//0 # freq=708472
+TermMonthSort: monthdvsort//names # freq=402762
+TermMonthSort: monthdvsort//nbsp # freq=492778
+TermMonthSort: monthdvsort//part # freq=588644
+TermMonthSort: monthdvsort//st # freq=306811
+TermDayOfYearSort: dayofyeardvsort//0 # freq=708472
+TermDayOfYearSort: dayofyeardvsort//names # freq=402762
+TermDayOfYearSort: dayofyeardvsort//nbsp # freq=492778
+TermDayOfYearSort: dayofyeardvsort//part # freq=588644
+TermDayOfYearSort: dayofyeardvsort//st # freq=306811
+TermGroup100: group100//0 # freq=708472
+TermGroup100: group100//names # freq=402762
+TermGroup100: group100//nbsp # freq=492778
+TermGroup100: group100//part # freq=588644
+TermGroup100: group100//st # freq=306811
+TermGroup10K: group10K//0 # freq=708472
+TermGroup10K: group10K//names # freq=402762
+TermGroup10K: group10K//nbsp # freq=492778
+TermGroup10K: group10K//part # freq=588644
+TermGroup10K: group10K//st # freq=306811
+TermGroup1M: group1M//0 # freq=708472
+TermGroup1M: group1M//names # freq=402762
+TermGroup1M: group1M//nbsp # freq=492778
+TermGroup1M: group1M//part # freq=588644
+TermGroup1M: group1M//st # freq=306811
+TermBGroup1M: groupblock//0 # freq=708472
+TermBGroup1M: groupblock//names # freq=402762
+TermBGroup1M: groupblock//nbsp # freq=492778
+TermBGroup1M: groupblock//part # freq=588644
+TermBGroup1M: groupblock//st # freq=306811
+TermBGroup1M1P: groupblock1pass//0 # freq=708472
+TermBGroup1M1P: groupblock1pass//names # freq=402762
+TermBGroup1M1P: groupblock1pass//nbsp # freq=492778
+TermBGroup1M1P: groupblock1pass//part # freq=588644
+TermBGroup1M1P: groupblock1pass//st # freq=306811
+Wildcard: bu*s
+Wildcard: fu*r
+Wildcard: no*n
+Wildcard: pr*t
+Wildcard: un*l
+AndHighOrMedMed: +be +(mostly interview) # freq=2115632 freq=89401 freq=94736
+AndHighOrMedMed: +cite +(9 hard) # freq=1367577 freq=541405 freq=92045
+AndHighOrMedMed: +is +(bay 16) # freq=4214104 freq=117167 freq=531050
+AndHighOrMedMed: +no +(power particularly) # freq=1060681 freq=257919 freq=100045
+AndHighOrMedMed: +title +(1983 ed) # freq=2077102 freq=150075 freq=127497
+AndMedOrHighHigh: +mostly +(are last) # freq=89401 freq=1921211 freq=830278
+AndMedOrHighHigh: +interview +(at united) # freq=94736 freq=2834104 freq=1185528
+AndMedOrHighHigh: +hard +(but year) # freq=92045 freq=1484398 freq=1098425
+AndMedOrHighHigh: +9 +(name its) # freq=541405 freq=2577591 freq=1160703
+AndMedOrHighHigh: +bay +(to but) # freq=117167 freq=6105155 freq=1484398
