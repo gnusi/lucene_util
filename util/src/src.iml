@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../build" />
+    <content url="file://$MODULE_DIR$/../../trunk/lucene/analysis/common/src/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../trunk/lucene/analysis/common/src/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../trunk/lucene/codecs/src/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../trunk/lucene/codecs/src/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../trunk/lucene/core/src/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../trunk/lucene/core/src/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../trunk/lucene/facet/src/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../trunk/lucene/facet/src/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../trunk/lucene/grouping/src/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../trunk/lucene/grouping/src/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../trunk/lucene/highlighter/src/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../trunk/lucene/highlighter/src/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../trunk/lucene/join/src/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../trunk/lucene/join/src/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../trunk/lucene/memory/src/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../trunk/lucene/memory/src/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../trunk/lucene/queries/src/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../trunk/lucene/queries/src/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../trunk/lucene/queryparser/src/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../trunk/lucene/queryparser/src/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../trunk/lucene/sandbox/src/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../trunk/lucene/sandbox/src/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../trunk/lucene/suggest/src/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../trunk/lucene/suggest/src/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/main">
+      <sourceFolder url="file://$MODULE_DIR$/main" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../trunk/lucene/build/core/classes/java" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../trunk/lucene/build/codecs/classes/java" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

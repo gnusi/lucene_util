@@ -626,6 +626,7 @@ public class LineFileDocs implements Closeable {
     } else if (doClone) {
       return cloneDoc(doc.doc);
     } else {
+      System.out.println(doc.doc.toString());
       return doc.doc;
     }
   }
