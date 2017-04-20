@@ -55,6 +55,10 @@ abstract class Task {
   // to stdout:
   public abstract void printResults(PrintStream out, IndexState state) throws IOException;
 
+  public String toCSV() {
+    return null;
+  }
+
   // Sentinal
   static final Task END_TASK = new Task() {
 

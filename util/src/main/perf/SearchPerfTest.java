@@ -257,6 +257,8 @@ public class SearchPerfTest {
       throw new UnsupportedOperationException("recacheFilterDeletes was deprecated");
     }
 
+    final boolean csv = args.getFlag("-csv");
+
     if (args.getFlag("-nrt")) {
       // TODO: get taxoReader working here too
       // TODO: factor out & share this CL processing w/ Indexer
@@ -552,31 +554,37 @@ public class SearchPerfTest {
 
       // indexState.setDocIDToID();
 
-      final Map<Task,Task> tasksSeen = new HashMap<Task,Task>();
-
-      out.println("\nResults for " + allTasks.size() + " tasks:");
-
       boolean fail = false;
-      for(final Task task : allTasks) {
-        if (verifyCheckSum) {
-          final Task other = tasksSeen.get(task);
-          if (other != null) {
-            if (task.checksum() != other.checksum()) {
-              System.out.println("\nTASK:");
-              task.printResults(System.out, indexState);
-              System.out.println("\nOTHER TASK:");
-              other.printResults(System.out, indexState);
-              fail = true;
-              //throw new RuntimeException("task " + task + " hit different checksums: " + task.checksum() + " vs " + other.checksum() + " other=" + other);
-            }
-          } else {
-            tasksSeen.put(task, task);
-          }
+      if (csv) {
+        for (final Task task : allTasks) {
+          String s = task.toCSV();
+          if (s != null) out.println(s);
         }
-        out.println("\nTASK: " + task);
-        out.println("  " + (task.runTimeNanos/1000000.0) + " msec");
-        out.println("  thread " + task.threadID);
-        task.printResults(out, indexState);
+      }
+      else {
+        final Map<Task,Task> tasksSeen = new HashMap<Task,Task>();
+        out.println("\nResults for " + allTasks.size() + " tasks:");
+        for (final Task task : allTasks) {
+          if (verifyCheckSum) {
+            final Task other = tasksSeen.get(task);
+            if (other != null) {
+              if (task.checksum() != other.checksum()) {
+                System.out.println("\nTASK:");
+                task.printResults(System.out, indexState);
+                System.out.println("\nOTHER TASK:");
+                other.printResults(System.out, indexState);
+                fail = true;
+                //throw new RuntimeException("task " + task + " hit different checksums: " + task.checksum() + " vs " + other.checksum() + " other=" + other);
+              }
+            } else {
+              tasksSeen.put(task, task);
+            }
+          }
+          out.println("\nTASK: " + task);
+          out.println("  " + (task.runTimeNanos / 1000000.0) + " msec");
+          out.println("  thread " + task.threadID);
+          task.printResults(out, indexState);
+        }
       }
       if (fail) {
         throw new RuntimeException("some tasks got different results across different threads");

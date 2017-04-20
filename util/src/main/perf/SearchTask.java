@@ -481,6 +481,16 @@ final class SearchTask extends Task {
   }
 
   @Override
+  public String toCSV() {
+    return category + "," + q + "," +
+            (group == null ?
+                    (hits==null ? "null" : hits.totalHits) :
+                    (singlePassGroup ? groupsResultBlock.totalHitCount: groupsResultTerms.totalHitCount)) + "," +
+            runTimeNanos/1000000.0 + "," +
+            runTimeNanos/1000.0;
+  }
+
+  @Override
   public void printResults(PrintStream out, IndexState state) throws IOException {
     IndexSearcher searcher = state.mgr.acquire();
     try {
